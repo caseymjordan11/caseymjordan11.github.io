@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 0;
+  margin-top: 0px;
+  height: 100px;
+  background-color: #7395ae;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: georgia, sans-serif;
+  color: #5d5c61;
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+img {
+  border: solid 2px #5d5c61;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.skills {
+  width: 50px;
+  height: 100px;
+  padding: 0px 20px;
+  top: 0;
+  margin-top: 0px;
+}
+
+.work {
+  width: 50px;
+  height: 100px;
+  padding: 0px 20px;
+  top: 0;
+  margin-top: 0px;
+}
+
+.contact {
+  width: 50px;
+  height: 100px;
+  padding: 0px 20px;
+  background-color: #938E94;
+  top: 0;
+  margin-top: 0px;
+}
