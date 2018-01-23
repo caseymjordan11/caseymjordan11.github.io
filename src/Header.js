@@ -13,9 +13,15 @@ class Header extends Component {
           </div>
           <h1>Casey Jordan</h1>
           <div className="links">
-            <h3 className="skills">Skills and Interests</h3>
-            <h3 className="work">Work Examples</h3>
-            <h3 className="contact">Contact</h3>
+            <div className="link">
+              <h3 className="skills">Skills</h3>
+            </div>
+            <div className="link">
+              <h3 className="work">Work</h3>
+            </div>
+            <div className="link">
+              <h3 className="contact">Contact</h3>
+            </div>
           </div>
       </div>
     )

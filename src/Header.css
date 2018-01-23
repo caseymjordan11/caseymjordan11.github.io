@@ -31,26 +31,54 @@ img {
 }
 
 .skills {
+  color: white;
   width: 50px;
-  height: 100px;
-  padding: 0px 20px;
-  top: 0;
+  padding: 40px 20px;
   margin-top: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #938E94;
 }
 
 .work {
+  color: white;
   width: 50px;
-  height: 100px;
-  padding: 0px 20px;
-  top: 0;
+  padding: 40px 20px;
   margin-top: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #868587;
 }
 
+.contact:hover {
+  background-color: #ae7973;
+}
+
+.skills:hover {
+  background-color: #ae7973;
+}
+
+.work:hover {
+  background-color: #ae7973;
+}
+
+
+
 .contact {
+  color: white;
   width: 50px;
-  height: 100px;
-  padding: 0px 20px;
-  background-color: #938E94;
-  top: 0;
+  padding: 40px 30px;
   margin-top: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-left: 10px;
+  background-color: #5d5c61;
 }
