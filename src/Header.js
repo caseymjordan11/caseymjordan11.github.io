@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom'
+import { Redirect, Link } from 'react-router-dom'
 
 import './Header.css'
 import image from './images/pic.jpg'
@@ -13,15 +13,17 @@ class Header extends Component {
           </div>
           <h1>Casey Jordan</h1>
           <div className="links">
-            <div className="link">
-              <h3 className="skills">Skills</h3>
-            </div>
-            <div className="link">
-              <h3 className="work">Work</h3>
-            </div>
-            <div className="link">
-              <h3 className="contact">Contact</h3>
-            </div>
+              <div>
+                <button className="skills"><Link to="/skills">Skills</Link></button>
+              </div>
+
+              <div className="work">
+                <button className="work"><Link to="/work">Work</Link></button>
+              </div>
+
+              <div className="contact">
+                <button className="contact"><Link to="/contact">Contact</Link></button>
+              </div>
           </div>
       </div>
     )

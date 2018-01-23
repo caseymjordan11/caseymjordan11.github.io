@@ -27,32 +27,39 @@ img {
 .links {
   display: flex;
   flex-direction: row;
-  font-size: 15px;
 }
 
 .skills {
   color: white;
-  width: 50px;
-  padding: 40px 20px;
-  margin-top: 0px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
   background-color: #938E94;
+  border: none;
+  outline: none;
+  padding: 0px;
 }
 
 .work {
   color: white;
-  width: 50px;
-  padding: 40px 20px;
-  margin-top: 0px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 0px;
   background-color: #868587;
+}
+
+.contact {
+  color: white;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 0px;
+  background-color: #5d5c61;
 }
 
 .contact:hover {
@@ -67,18 +74,14 @@ img {
   background-color: #ae7973;
 }
 
-
-
-.contact {
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
   color: white;
-  width: 50px;
-  padding: 40px 30px;
-  margin-top: 0px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding-left: 10px;
-  background-color: #5d5c61;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
