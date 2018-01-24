@@ -9,14 +9,6 @@
   justify-content: space-between;
 }
 
-h1 {
-  font-family: georgia, sans-serif;
-  color: #5d5c61;
-  display: flex;
-  justify-content: center;
-  margin-top: 29px;
-}
-
 img {
   border: solid 2px #5d5c61;
   border-radius: 50%;
@@ -78,10 +70,11 @@ a {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: white;
-  color: white;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 32px;
   padding-right: 32px;
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  font-family: sans-serif;
 }

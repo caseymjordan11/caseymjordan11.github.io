@@ -1,0 +1,39 @@
+.body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+  color: white;
+  text-shadow: 1px 1px 15px black;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  font-family: sans-serif;
+}
+
+.par {
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  font-family: sans-serif;
+}
+
+.aboutMe {
+  margin-left: 20px;
+  margin-top: 13px;
+  height: 250px;
+  width: 500px;
+  background-color: #868587;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 1px 1px 15px black;
+}
+
+.me {
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 1px 1px 15px black;
+  margin-right: 20px;
+}

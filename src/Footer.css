@@ -1,0 +1,21 @@
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0;
+  margin-bottom: 0px;
+  height: 30px;
+  background-color: #5d5c61;
+  position: fixed;
+  width: 100vw;
+  padding-bottom: 5px;
+
+}
+
+.name {
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 0px 10px;
+}

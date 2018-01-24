@@ -11,7 +11,6 @@ class Header extends Component {
           <div className="pic">
               <img src={image} height='75px' width='75px' alt="Logo"/>
           </div>
-          <h1>Casey Jordan</h1>
           <div className="links">
               <div>
                 <button className="skills"><Link to="/skills">Skills</Link></button>
