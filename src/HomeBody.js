@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import FontAwesome from 'react-fontawesome'
 
 import './HomeBody.css'
 import me from './images/me.jpg'
 
 class HomeBody extends Component {
+  linked(){
+    window.open('http://www.linkedin.com/in/casey-jordan')
+  }
+
+  face(){
+    window.open('https://www.facebook.com/casey.m.jordan.7')
+  }
+
+  twit(){
+    window.open('https://twitter.com/CaseyMJordan')
+  }
+
   render() {
     return(
+    <div>
       <div className="body">
         <img className="me" src={me} height="250px" width="250px" alt="Pic"/>
         <div className="aboutMe">
@@ -16,6 +30,30 @@ class HomeBody extends Component {
           </p>
         </div>
       </div>
+
+      <div className="profLinks">
+        <FontAwesome
+          className='linkedin'
+          name='linkedin'
+          size='3x'
+          onClick={this.linked}
+        />
+        <FontAwesome
+          className='linkedin'
+          name='twitter'
+          size='3x'
+          onClick={this.twit}
+        />
+        <FontAwesome
+          className='linkedin'
+          name='facebook'
+          size='3x'
+          onClick={this.face}
+        />
+      </div>
+
+
+    </div>
     )
   }
 }

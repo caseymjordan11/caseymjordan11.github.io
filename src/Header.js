@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import { Redirect, Link } from 'react-router-dom'
 
 import './Header.css'
-import image from './images/pic.jpg'
 
 class Header extends Component {
   render(){
     return(
       <div className="header">
-          <div className="pic">
-              <img src={image} height='75px' width='75px' alt="Logo"/>
+          <div>
+            <button className="skills2"><Link className="cj" to="/">CJ</Link></button>
           </div>
           <div className="links">
               <div>

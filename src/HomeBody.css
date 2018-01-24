@@ -8,6 +8,29 @@
   text-shadow: 1px 1px 15px black;
 }
 
+.profLinks {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.linkedin {
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.linkedin:hover{
+  color: #ae7973;
+  cursor: pointer;
+}
+
+.noHover {
+  display: hidden;
+}
+
+
 h1 {
   color: white;
   text-shadow: 1px 1px 15px black;
@@ -22,7 +45,6 @@ h1 {
 
 .aboutMe {
   margin-left: 20px;
-  margin-top: 13px;
   height: 250px;
   width: 500px;
   background-color: #868587;

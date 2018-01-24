@@ -9,16 +9,29 @@
   justify-content: space-between;
 }
 
-img {
-  border: solid 2px #5d5c61;
-  border-radius: 50%;
-  margin-top: 12px;
-  margin-left: 12px;
+.cj {
+  font-size: 35px;
+  font-family: georgia;
+  padding-top: 25px;
 }
 
 .links {
   display: flex;
   flex-direction: row;
+}
+
+.skills2 {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  background-color: #938E94;
+  border: solid 2px #5d5c61;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.skills2:hover {
+  background-color: #ae7973;
 }
 
 .skills {
