@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect, Link } from 'react-router-dom'
+import FontAwesome from 'react-fontawesome'
 
 import './Header.css'
 
@@ -8,7 +9,7 @@ class Header extends Component {
     return(
       <div className="header">
           <div>
-            <button className="skills2"><Link className="cj" to="/">CJ</Link></button>
+            <button className="home"><Link to="/">About</Link></button>
           </div>
           <div className="links">
               <div>

@@ -71,6 +71,21 @@
   background-color: #ae7973;
 }
 
+.home {
+  color: white;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 0px;
+  background-color: #5d5c61;
+}
+
+.home:hover {
+  background-color: #ae7973;
+}
+
 .skills:hover {
   background-color: #ae7973;
 }

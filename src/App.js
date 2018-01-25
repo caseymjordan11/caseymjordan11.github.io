@@ -4,6 +4,7 @@ import './App.css'
 import { Route, Switch } from 'react-router-dom'
 
 import HomePage from './HomePage.js'
+import ContactForm from './ContactForm.js'
 
 class App extends Component {
   render() {
@@ -27,7 +28,7 @@ class App extends Component {
           )}  />
           <Route exact path='/contact' render ={() => (
             <div>
-              <h1>Contact</h1>
+              <ContactForm />
             </div>
           )}  />
       </Switch>

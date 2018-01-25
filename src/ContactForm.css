@@ -1,0 +1,41 @@
+.form {
+  text-align: center;
+}
+
+.nameText{
+  width: 250px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.emailText{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.messageText {
+  height: 300px;
+  width: 500px;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.emailButton {
+  margin: 5px;
+  background: lightgrey;
+  height: 30px;
+  width: 100px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.emailButton:hover {
+  cursor: pointer;
+  background: #ae7973;
+}

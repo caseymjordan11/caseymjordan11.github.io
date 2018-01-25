@@ -24,7 +24,7 @@
 
 html {
   background-image: url('./images/pic2.jpg');
-  overflow: hidden;
+  overflow: auto;
   background-size: 1300px 1000px;
   min-width: 810px;
 }
