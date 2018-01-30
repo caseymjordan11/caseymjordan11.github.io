@@ -5,8 +5,6 @@ import { Route, Switch } from 'react-router-dom'
 
 import HomePage from './HomePage.js'
 import ContactForm from './ContactForm.js'
-import MyPdfViewer from './MyPdfViewer.js'
-import qac from './images/qac.pdf'
 
 class App extends Component {
   constructor(){
@@ -49,9 +47,9 @@ class App extends Component {
               <h1>Work</h1>
               <button onClick={this.click}>Hide or Show</button>
               <div className={this.state.class}>
-                <MyPdfViewer
-                    pdf={qac}
-                />
+
+                <iframe src="https://drive.google.com/file/d/0B7YD8wUYlKDwbllueUxpbXZTdzQ/preview" width="640" height="480"></iframe>
+
               </div>
             </div>
           )}  />
