@@ -30,7 +30,6 @@ class HomeBody extends Component {
           </p>
         </div>
       </div>
-
       <div className="profLinks">
         <FontAwesome
           className='linkedin'
