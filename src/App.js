@@ -48,7 +48,7 @@ class App extends Component {
               <button onClick={this.click}>Hide or Show</button>
               <div className={this.state.class}>
 
-              <iframe src="https://docs.google.com/document/d/e/2PACX-1vQh8TilXUvMpSCuQpSWlg9zi4xq_XE4h4r9Vp-2XW5VmVYWGM5uEwl0RDbBumHnuX0Fn5TlImoFqg9e/pub?embedded=true"></iframe>
+                <iframe src="https://drive.google.com/file/d/144qYw5e0LwV760Pe2Dx1RNYkrbTRMiPy/preview" width="640" height="480"></iframe>
 
               </div>
             </div>
