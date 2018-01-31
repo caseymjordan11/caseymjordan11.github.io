@@ -69,10 +69,6 @@ class WorkPage extends Component {
           <div className="buttons">
             <button className="dropdownSelect" onClick={this.click2}>2016 Election Analysis</button>
             <button className="dropdownSelect" onClick={this.click3}>NEPSA 2017 Paper</button>
-            <button className="dropdownSelect" onClick={this.click}>Restaurant Reccomendation Web App</button>
-          </div>
-          <div className={this.state.class}>
-            <iframe src="https://indecisive-chef.surge.sh" width="800" height="800"></iframe>
           </div>
 
           <div className={this.state.class2}>
