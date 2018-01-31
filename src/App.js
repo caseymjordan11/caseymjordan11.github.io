@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router-dom'
 import HomePage from './HomePage.js'
 import ContactForm from './ContactForm.js'
 import WorkPage from './WorkPage.js'
+import SkillPage from './SkillPage.js'
 
 class App extends Component {
   render() {
@@ -18,9 +19,7 @@ class App extends Component {
             </div>
           )}  />
           <Route exact path='/skills' render ={() => (
-            <div>
-              <h1>Skills</h1>
-            </div>
+            <SkillPage />
           )}  />
           <Route exact path='/work' render ={() => (
             <WorkPage />

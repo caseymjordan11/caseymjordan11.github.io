@@ -10,7 +10,7 @@ class HomePage extends Component {
   render() {
     return (
     <div>
-      <Header/>
+      <Header title="Casey Jordan"/>
       <HomeBody/>
       <Footer/>
     </div>
