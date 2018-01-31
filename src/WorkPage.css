@@ -15,12 +15,12 @@
 }
 
 iframe {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
 }
 
