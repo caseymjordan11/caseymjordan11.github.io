@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+.dropdownSelect{
+  background: #938E94;
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 15px black;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+}
+
+iframe {
+  margin-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.dropdownSelect:hover{
+  cursor: pointer;
+  background:#ae7973;
+}

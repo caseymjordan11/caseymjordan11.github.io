@@ -11,6 +11,9 @@ class Header extends Component {
           <div>
             <button className="home"><Link to="/">About</Link></button>
           </div>
+          <div>
+            <h1 className="h1">{this.props.title}</h1>
+          </div>
           <div className="links">
               <div>
                 <button className="skills"><Link to="/skills">Skills</Link></button>

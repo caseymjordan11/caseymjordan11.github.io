@@ -8,9 +8,8 @@ class ContactForm extends Component {
   render() {
     return(
     <div>
-      <Header/>
+      <Header title="Contact Me"/>
         <form className="form" action="https://formspree.io/caseymjordan11@gmail.com" method="POST">
-          <h1>Contact Me</h1>
           <div className="name">
             <input className="nameText" type="name" name="name" placeholder="Your name" />
           </div>

@@ -20,6 +20,11 @@
   flex-direction: row;
 }
 
+.h1 {
+  height: 90px;
+  margin-top: 32px;
+}
+
 .skills2 {
   border-radius: 50%;
   height: 90px;
